@@ -1,0 +1,137 @@
+     .logo {
+            height: 60px;
+            width: auto;
+        }
+
+        .carousel-caption h5 {
+            font-size: 3rem;
+        }
+
+        .carousel-caption p {
+            font-size: 1.5rem;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            height: 800px;
+            /* Adjust height to achieve cinematic aspect ratio */
+        }
+
+        .carousel-caption {
+            z-index: 10;
+        }
+
+        .footer {
+            background: #000000;
+            color: aliceblue;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+            /* Ensure consistent aspect ratio */
+        }
+
+        .btn-primary {
+            background-color: red;
+            border-color: red;
+        }
+
+        .btn-primary:hover {
+            background-color: black;
+            border-color: red;
+        }
+        .btn-primary::after{
+            background-color: black;
+        }
+
+        .welcome-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .welcome-section h1 {
+            font-size: 3rem;
+        }
+
+        .welcome-section p {
+            font-size: 1.25rem;
+        }
+        /* 🌍 Styles généraux */
+body {
+    background-color: #262626;
+    font-family: 'Karla', Helvetica, Arial, sans-serif;
+    color: #F1ECE2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 📌 Navbar */
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+/* 🎠 Carousel */
+.carousel-caption h5 {
+    font-size: 3rem;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 800px; /* Effet cinématographique */
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+/* 📢 Section des cartes */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+/* 🔴 Boutons */
+.btn-primary {
+    background-color: red;
+    border-color: red;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border-color: red;
+}
+
+.footer {
+    background: #000000;
+    color: aliceblue;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* 🎨 Effet hover sur le bouton */
+.subscribe-btn {
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.subscribe-btn:hover {
+    background-color: #d1c5b0;
+}
